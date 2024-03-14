@@ -1,5 +1,6 @@
 // Home
 export { Hero } from "./home/Hero";
+export { CardLinkGrid } from "./home/CardLinkGrid";
 
 // Layout Components
 export { ButtonAlumnos } from "./layout/nav/ButtonAlumnos";
