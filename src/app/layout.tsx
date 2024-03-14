@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { fira } from "@/fonts/fonts";
 import "./globals.css";
-import { Navbar, SideMenu } from "@/components";
+import { Footer, Navbar, SideMenu } from "@/components";
 
 export const metadata: Metadata = {
   title: "Metodología | Ex-Galán",
@@ -21,6 +21,7 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

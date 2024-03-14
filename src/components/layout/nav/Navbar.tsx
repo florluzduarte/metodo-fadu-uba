@@ -9,11 +9,11 @@ export const Navbar = () => {
 
   return (
     <nav className="py-6 border-b border-b-gray-300">
-      <div className="flex justify-between mx-6 items-center">
+      <div className="flex justify-between mx-6 items-center xl:max-w-[1220px] xl:mx-auto">
         <LogoMetodo />
         <div className="flex gap-3 items-center">
           <ButtonAlumnos />
-          <button onClick={handleOpenMenu}>
+          <button onClick={handleOpenMenu} className="p-1 rounded-md hover:bg-gray-200">
             <IoMenu size={32} className="fill-black" />
           </button>
         </div>

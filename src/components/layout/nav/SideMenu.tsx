@@ -52,12 +52,12 @@ export const SideMenu = () => {
         />)
       }
 
-      <nav className={clsx("fixed z-10 top-0 right-0 h-screen bg-white w-[270px] md:w-[320px] p-6 transform transition-all duration-300",
+      <nav className={clsx("fixed z-10 top-0 right-0 h-screen bg-white w-[270px] md:w-[320px] xl:w-[450px] p-6 transform transition-all duration-300",
         {
           "translate-x-full": !isMenuOpen
         }
       )}>
-        <button className="fixed top-8 right-8"
+        <button className="fixed top-8 right-8 p-1 hover:bg-gray-200 rounded-md"
           onClick={handleCloseMenu}
         >
           <IoClose size={28} />
@@ -65,14 +65,18 @@ export const SideMenu = () => {
         <ul className="flex flex-col gap-3 mt-14">
           {
             menuItems.map((item) => (
-              <SideMenuItem key={item.path} {...item} />
+              <li className="px-3 py-2 rounded-md hover:bg-gray-200 cursor-pointer transition-all"
+                onClick={handleCloseMenu} key={item.path}
+              >
+                <SideMenuItem {...item} />
+              </li>
             ))
           }
           <div onClick={handleCloseMenu}>
             <ButtonAlumnos />
           </div>
         </ul>
-      </nav>
+      </nav >
     </>
   )
 }
