@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { fira } from "@/fonts/fonts";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Footer, Navbar, SideMenu } from "@/components";
 
 export const metadata: Metadata = {
   title: "Metodología | Ex-Galán",
@@ -16,9 +15,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={inter.className}>
-        <h1>Layout</h1>
-        {children}
+      <body className={`${fira.className} bg-gray-100 text-black`}>
+        <Navbar />
+        <SideMenu />
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
