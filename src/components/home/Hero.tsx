@@ -8,7 +8,7 @@ const textDescription = "La materia está ubicada en el último nivel de la Carr
 
 export const Hero = () => {
   return (
-    <section className="mx-6 mt-14 grid grid-cols-1 gap-14 md:grid-cols-2 md:items-center md:gap-8 lg:gap-14 xl:max-w-6xl xl:mx-auto xl:mt-24">
+    <section className="mx-6 my-14 grid grid-cols-1 gap-14 md:grid-cols-2 md:items-center md:gap-8 md:my-20 lg:gap-14 xl:max-w-6xl xl:mx-auto xl:my-24">
       <div className="flex flex-col gap-4">
         <Title text={textTitle} />
         <Subtitle text={textSubtitle} type="regular" />

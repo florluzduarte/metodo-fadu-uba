@@ -14,3 +14,5 @@ export { SocialMedia } from "./layout/footer/SocialMedia";
 // UI components
 export { Title } from "./ui/titles/Title";
 export { Subtitle } from "./ui/titles/Subtitle";
+export { CardLink } from "./ui/card-link/CardLink";
+export { LinkItem } from "./ui/card-link/LinkItem";
