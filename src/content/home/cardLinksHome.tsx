@@ -8,14 +8,7 @@ interface CardLinks {
   hintText: string;
 }
 
-export const cardLinksHome: CardLinks[] = [
-  {
-    icon: <IoPerson size={24} className="text-green-400" />,
-    title: "Acceso portal Alumnos",
-    description: "Materiales compartidos para la cursada, área de entrega y bibliografía de la Cátedra.",
-    cardPath: "/alumnos",
-    hintText: "Alumnos",
-  },
+export const cardLinksHomeInternal: CardLinks[] = [
   {
     icon: <IoBook size={24} className="text-green-400" />,
     title: "Sobre la Cátedra",
@@ -25,23 +18,26 @@ export const cardLinksHome: CardLinks[] = [
   },
   {
     icon: <IoPeople size={24} className="text-green-400" />,
-    title: "Equipo Docente",
-    description: "Profesionales que componen la cátedra, rol en la materia, CVs con historial profesional y académico.",
-    cardPath: "/docentes",
-    hintText: "Equipo",
+    title: "Investigación",
+    description: "Espacios de investigación vinculados con la cátedra, CEPRODIDE, y más información relacionada",
+    cardPath: "/investigacion",
+    hintText: "Conocer más",
   },
   {
     icon: <IoDocument size={24} className="text-green-400" />,
-    title: "Trabajos prácticos",
-    description: "Consignas de los trabajos prácticos metodológicos y teórico-críticos que se realizarán durante la cursada.",
-    cardPath: "/consignas",
-    hintText: "Consignas",
-  },
+    title: "Marco Teórico",
+    description: "Bibliografía de consulta para la elaboración de los contenidos y trabajos de la Cátedra",
+    cardPath: "/marcoteorico",
+    hintText: "Ver bibliografía",
+  }
+];
+
+export const cardLinksHomeExternal: CardLinks[] = [
   {
-    icon: <IoVideocam size={24} className="text-green-400" />,
-    title: "Teóricas",
-    description: "Material audiovisual de soporte para la cursada y la realización de los trabajos prácticos.",
-    cardPath: "/teoricas",
-    hintText: "Ver videos",
-  },
+    icon: <IoPerson size={24} className="text-green-400" />,
+    title: "Acceso portal Alumnos",
+    description: "Materiales compartidos para la cursada, área de entrega y bibliografía de la Cátedra.",
+    cardPath: "https://campus.fadu.uba.ar/",
+    hintText: "Alumnos",
+  }
 ]
