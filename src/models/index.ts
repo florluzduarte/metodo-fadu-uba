@@ -7,3 +7,5 @@ export type { Objetivos } from "./catedra/catedra.interfaces";
 // Interfaces UI
 export type { ListItemProps } from "./ui/ui.interface";
 export type { ListProps } from "./ui/ui.interface";
+export type { CardLinksProps } from "./ui/ui.interface";
+export type { CardLinkProps } from "./ui/ui.interface";

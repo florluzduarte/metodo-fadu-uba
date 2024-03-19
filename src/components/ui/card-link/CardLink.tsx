@@ -1,14 +1,6 @@
 import Link from "next/link";
 import { IoChevronForward, IoOpenOutline } from "react-icons/io5";
-
-interface CardLinkProps {
-  icon?: React.ReactElement;
-  title: string;
-  description: string;
-  cardType: "internal" | "external";
-  cardPath: string;
-  hintText: string;
-}
+import type { CardLinkProps } from "@/models";
 
 export const CardLink = ({ icon, title, description, cardType, cardPath, hintText }: CardLinkProps) => {
 

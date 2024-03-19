@@ -1,6 +1,8 @@
 // catedra/catedra
 export { Fundamentos } from "./catedra/catedra/Fundamentos";
 export { Objetivos } from "./catedra/catedra/Objetivos";
+export { CatedraLinks } from "./catedra/catedra/CatedraLinks";
+export { ElNombre } from "./catedra/catedra/ElNombre";
 
 // catedra/docentes
 export { DocenteCard } from "./catedra/docentes/DocenteCard";

@@ -1,4 +1,4 @@
-import { Fundamentos, LinkItem, Objetivos, Title } from "@/components";
+import { CatedraLinks, ElNombre, Fundamentos, LinkItem, Objetivos, Title } from "@/components";
 import Image from "next/image";
 
 export default function CatedraPage() {
@@ -11,6 +11,8 @@ export default function CatedraPage() {
         {/* TODO: Agregar imagen de la cátedra cuando la tenga */}
         {/* <Image src={} /> */}
         <Fundamentos />
+        <ElNombre />
+        <CatedraLinks />
         <Objetivos />
       </section>
     </div>
