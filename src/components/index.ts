@@ -1,3 +1,7 @@
+// Cátedra/Docentes
+export { DocenteCard } from "./catedra/docentes/DocenteCard";
+export { DocenteCardGrid } from "./catedra/docentes/DocenteCardGrid";
+
 // Home
 export { Hero } from "./home/Hero";
 export { CardLinkGrid } from "./home/CardLinkGrid";

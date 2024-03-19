@@ -15,17 +15,13 @@ const menuItems = [
     path: "/catedra",
   },
   {
-    title: "Docentes",
-    path: "/docentes",
+    title: "Investigación",
+    path: "/investigacion",
   },
   {
-    title: "Consignas",
-    path: "/consignas",
+    title: "Marco Teórico",
+    path: "/marcoteorico",
   },
-  {
-    title: "Teóricas",
-    path: "/teoricas"
-  }
 ]
 
 

@@ -39,10 +39,10 @@ export const CardLink = ({ icon, title, description, cardType, cardPath, hintTex
         {
           icon && icon
         }
-        <p className="font-bold text-[20px] xl:text-[32px]">{title}</p>
+        <p className="font-bold text-[20px] xl:text-[24px]">{title}</p>
         <p>{description}</p>
 
-        <div className="flex gap-1 items-center underline underline-offset-2">
+        <div className="flex gap-2 items-center underline underline-offset-2">
           <p>{hintText}</p>
           <IoOpenOutline size={24} className="text-green-400" />
         </div>
