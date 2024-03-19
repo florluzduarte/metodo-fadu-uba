@@ -23,6 +23,9 @@ export { Footer } from "./layout/footer/Footer";
 export { LogoFadu } from "./layout/logos/LogoFadu";
 export { SocialMedia } from "./layout/footer/SocialMedia";
 
+// Marco Teórico components
+export { BiblioList } from "./marcoTeorico/BiblioList";
+
 // UI components
 export { Title } from "./ui/titles/Title";
 export { Subtitle } from "./ui/titles/Subtitle";
