@@ -1,4 +1,7 @@
-// Cátedra/Docentes
+// catedra/catedra
+export { Fundamentos } from "./catedra/catedra/Fundamentos";
+
+// catedra/docentes
 export { DocenteCard } from "./catedra/docentes/DocenteCard";
 export { DocenteCardGrid } from "./catedra/docentes/DocenteCardGrid";
 
