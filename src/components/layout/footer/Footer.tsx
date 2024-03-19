@@ -11,7 +11,7 @@ const socialMediaLinks = [
   {
     title: "YouTube",
     logo: <IoLogoYoutube size={24} className="text-black hover:text-green-400" />,
-    path: "https://youtube.com",
+    path: "https://youtube.com/@MetodologiaCatedraExGalan",
   },
   {
     title: "Spotify",
