@@ -9,3 +9,14 @@ export interface Objetivos {
   title: string;
   texts: ListItemProps[];
 }
+
+export interface ContenidoMinimo {
+  titleText: string;
+  text: string;
+  key: number;
+}
+
+export interface Contenidos {
+  title: string;
+  texts: ContenidoMinimo[];
+}

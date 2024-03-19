@@ -1,4 +1,4 @@
-import { CatedraLinks, ElNombre, Fundamentos, LinkItem, Objetivos, Title } from "@/components";
+import { CatedraLinks, ContenidosCatedra, ElNombre, Fundamentos, LinkItem, Objetivos, Title } from "@/components";
 import Image from "next/image";
 
 export default function CatedraPage() {
@@ -14,7 +14,9 @@ export default function CatedraPage() {
         <ElNombre />
         <CatedraLinks />
         <Objetivos />
+        <ContenidosCatedra />
       </section>
+      <LinkItem type="internal" iconPosition="left" text="Volver" path="/" />
     </div>
   );
 }
