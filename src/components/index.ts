@@ -1,4 +1,11 @@
-// Cátedra/Docentes
+// catedra/catedra
+export { Fundamentos } from "./catedra/catedra/Fundamentos";
+export { Objetivos } from "./catedra/catedra/Objetivos";
+export { CatedraLinks } from "./catedra/catedra/CatedraLinks";
+export { ElNombre } from "./catedra/catedra/ElNombre";
+export { ContenidosCatedra } from "./catedra/catedra/ContenidosCatedra";
+
+// catedra/docentes
 export { DocenteCard } from "./catedra/docentes/DocenteCard";
 export { DocenteCardGrid } from "./catedra/docentes/DocenteCardGrid";
 
@@ -21,3 +28,5 @@ export { Title } from "./ui/titles/Title";
 export { Subtitle } from "./ui/titles/Subtitle";
 export { CardLink } from "./ui/card-link/CardLink";
 export { LinkItem } from "./ui/card-link/LinkItem";
+export { ListItem } from "./ui/list/ListItem";
+export { List } from "./ui/list/List";

@@ -1,14 +1,7 @@
-import { IoBook, IoDocument, IoPeople, IoPerson, IoVideocam } from "react-icons/io5";
+import { IoBook, IoDocument, IoPeople, IoPerson } from "react-icons/io5";
+import type { CardLinksProps } from "@/models";
 
-interface CardLinks {
-  icon?: React.ReactElement;
-  title: string;
-  description: string;
-  cardPath: string;
-  hintText: string;
-}
-
-export const cardLinksHomeInternal: CardLinks[] = [
+export const cardLinksHomeInternal: CardLinksProps[] = [
   {
     icon: <IoBook size={24} className="text-green-400" />,
     title: "Sobre la Cátedra",
@@ -32,7 +25,7 @@ export const cardLinksHomeInternal: CardLinks[] = [
   }
 ];
 
-export const cardLinksHomeExternal: CardLinks[] = [
+export const cardLinksHomeExternal: CardLinksProps[] = [
   {
     icon: <IoPerson size={24} className="text-green-400" />,
     title: "Acceso portal Alumnos",

@@ -1,8 +1,22 @@
+import { CatedraLinks, ContenidosCatedra, ElNombre, Fundamentos, LinkItem, Objetivos, Title } from "@/components";
+import Image from "next/image";
 
 export default function CatedraPage() {
   return (
-    <div>
-      <h1>Sobre la Cátedra</h1>
+    <div className="mx-6 my-14 md:mx-auto md:max-w-2xl xl:max-w-3xl">
+      <LinkItem type="internal" iconPosition="left" text="Volver" path="/" />
+      <section className="my-14 flex flex-col gap-14">
+        <Title text="Propuesta de la Cátedra" />
+
+        {/* TODO: Agregar imagen de la cátedra cuando la tenga */}
+        {/* <Image src={} /> */}
+        <Fundamentos />
+        <ElNombre />
+        <CatedraLinks />
+        <Objetivos />
+        <ContenidosCatedra />
+      </section>
+      <LinkItem type="internal" iconPosition="left" text="Volver" path="/" />
     </div>
   );
 }
