@@ -10,9 +10,7 @@ export const Fundamentos = () => {
       <div className="flex flex-col gap-6">
         {
           texts.map((paragraph) => (
-            <p key={paragraph.key}
-              className="xl:text-[20px]"
-            >
+            <p key={paragraph.key}>
               {paragraph.text}
             </p>
           ))
