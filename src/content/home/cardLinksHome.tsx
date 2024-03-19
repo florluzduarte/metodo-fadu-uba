@@ -26,7 +26,7 @@ export const cardLinksHomeInternal: CardLinks[] = [
   {
     icon: <IoDocument size={24} className="text-green-400" />,
     title: "Marco Teórico",
-    description: "Bibliografía de consulta para la elaboración de los contenidos y trabajos de la Cátedra",
+    description: "Marco teórico de referencia y consulta para la elaboración de los contenidos y trabajos de la Cátedra",
     cardPath: "/marcoteorico",
     hintText: "Ver bibliografía",
   }
@@ -36,7 +36,7 @@ export const cardLinksHomeExternal: CardLinks[] = [
   {
     icon: <IoPerson size={24} className="text-green-400" />,
     title: "Acceso portal Alumnos",
-    description: "Materiales compartidos para la cursada, área de entrega y bibliografía de la Cátedra.",
+    description: "Materiales compartidos para la cursada, área de entrega, bibliografía, teóricas y consignas.",
     cardPath: "https://campus.fadu.uba.ar/",
     hintText: "Alumnos",
   }
