@@ -7,7 +7,6 @@ export const DocenteCard = ({ image, name, role, bio }: DocentesInfo) => {
       <div className="flex gap-6 items-center">
         <Image src={image!} alt={name} width={100} height={100}
           className="w-[80px] h-[80px] rounded-full xl:w-[100px] xl:h-[100px]"
-          unoptimized
         />
         <div>
           <p className="font-bold uppercase">{name}</p>

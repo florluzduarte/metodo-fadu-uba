@@ -1,0 +1,4 @@
+export const sobreElNombre = {
+  title: "El nombre",
+  text: "En su nombre y legado, la cátedra lleva la impronta de la Dra DI Beatriz Galán, quien fuera su titular desde su conformación hasta su fallecimiento en el año 2018. Como equipo, sostenemos sus ideas fundantes, siguiendo huella de trabajo y pensamientos. La investigación en diseño, como conocimiento llave para encarar con criterio y mirada crítica los cambios del contexto, se transforma en nuestro motor para potenciar buenas hipótesis de proyecto. Desde aquí, seguimos creando conocimiento y campo fértil para continuar construyendo nuevas ideas."
+}
