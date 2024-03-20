@@ -1,4 +1,4 @@
-import { IoBook, IoDocument, IoPeople, IoPerson } from "react-icons/io5";
+import { IoBook, IoDocument, IoLibrary, IoPeople, IoPerson } from "react-icons/io5";
 import type { CardLinksProps } from "@/models";
 
 export const cardLinksHomeInternal: CardLinksProps[] = [
@@ -12,14 +12,14 @@ export const cardLinksHomeInternal: CardLinksProps[] = [
   {
     icon: <IoPeople size={24} className="text-green-400" />,
     title: "Investigación",
-    description: "Espacios de investigación vinculados con la cátedra, CEPRODIDE, y más información relacionada",
+    description: "Espacios de investigación vinculados con la cátedra, CEPRODIDE, y más información relacionada.",
     cardPath: "/investigacion",
     hintText: "Conocer más",
   },
   {
-    icon: <IoDocument size={24} className="text-green-400" />,
+    icon: <IoLibrary size={24} className="text-green-400" />,
     title: "Marco Teórico",
-    description: "Marco teórico de referencia y consulta para la elaboración de los contenidos y trabajos de la Cátedra",
+    description: "Marco teórico de referencia y consulta para la elaboración de los contenidos y trabajos de la Cátedra.",
     cardPath: "/marcoteorico",
     hintText: "Ver bibliografía",
   }

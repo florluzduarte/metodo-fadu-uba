@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Title, Subtitle } from "@/components";
-import heroImg from "@/assets/images/hero-img-metodo.png";
+import heroImg from "@/assets/images/met-3.jpg";
 
 const textTitle = "Metodología de la investigación en Diseño";
 const textSubtitle = "Cátedra Ex-Galán"

@@ -8,6 +8,7 @@ export default function DocentesPage() {
         <Title text="Equipo Docente" />
         <DocenteCardGrid />
       </section>
+      <LinkItem type="internal" iconPosition="left" text="Volver a Cátedra" path="/catedra" />
     </div>
   );
 }
