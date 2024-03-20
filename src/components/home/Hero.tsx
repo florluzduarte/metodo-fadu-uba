@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Title, Subtitle } from "@/components";
-import heroImg from "@/assets/images/met-3.jpg";
 
 const textTitle = "Metodología de la investigación en Diseño";
 const textSubtitle = "Cátedra Ex-Galán"
@@ -14,7 +13,7 @@ export const Hero = () => {
         <Subtitle text={textSubtitle} type="regular" />
         <p>{textDescription}</p>
       </div>
-      <Image src={heroImg} alt="" width={485} height={471} placeholder="blur" unoptimized className="xl:self-center" />
+      <Image src="/images/docentes/hero.JPG" alt="" width={485} height={471} unoptimized className="rounded-xl xl:place-self-end" priority />
     </section>
   )
 }
