@@ -13,6 +13,9 @@ export { DocenteCardGrid } from "./catedra/docentes/DocenteCardGrid";
 export { Hero } from "./home/Hero";
 export { CardLinkGrid } from "./home/CardLinkGrid";
 
+// Investigacion
+export { InvestigacionLinks } from "./investigacion/InvestigacionLinks";
+
 // Layout Components
 export { ButtonAlumnos } from "./layout/nav/ButtonAlumnos";
 export { LogoMetodo } from "./layout/logos/LogoMetodo";
