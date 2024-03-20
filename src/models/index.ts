@@ -5,6 +5,9 @@ export type { Fundamentos } from "./catedra/catedra.interfaces";
 export type { Objetivos } from "./catedra/catedra.interfaces";
 export type { Contenidos } from "./catedra/catedra.interfaces";
 
+// Interfaces Investigación
+export type { InvestigacionData } from "./investigacion/investigacion.interface";
+
 // Interfaces marcoTeorico
 export type { Bibliografia } from "./marcoTeorico/marco.interface";
 

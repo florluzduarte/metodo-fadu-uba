@@ -1,4 +1,4 @@
-import { IoBook, IoPeople } from "react-icons/io5";
+import { IoLibrary, IoPeople } from "react-icons/io5";
 import type { CardLinksProps } from "@/models";
 
 export const cardLinksInternalCatedra: CardLinksProps[] = [
@@ -10,7 +10,7 @@ export const cardLinksInternalCatedra: CardLinksProps[] = [
     hintText: "Equipo",
   },
   {
-    icon: <IoBook size={24} className="text-green-400" />,
+    icon: <IoLibrary size={24} className="text-green-400" />,
     title: "Marco Teórico",
     description: "Marco teórico de referencia y consulta para la elaboración de los contenidos y trabajos de la Cátedra",
     cardPath: "/marcoteorico",

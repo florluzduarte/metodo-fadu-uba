@@ -92,7 +92,7 @@ export const bibliografiaRecomendada: Bibliografia = {
     },
     {
       order: 23,
-      text: "Ríos, H. (2015) Enseñanza de la Materia Embriología en la Primera Unidad Académica de Histología, Embriología, Biología Celular y Genética, Facultad de Medicina, Universidad de Buenos Aires. En: http://fmed.uba.ar/depto/histo1a/embrio/adm/historia.pdf"
+      text: "Ríos, H. (2015) Enseñanza de la Materia Embriología en la Primera Unidad Académica de Histología, Embriología, Biología Celular y Genética, Facultad de Medicina, Universidad de Buenos Aires."
     },
     {
       order: 24,
@@ -116,7 +116,7 @@ export const bibliografiaRecomendada: Bibliografia = {
     },
     {
       order: 29,
-      text: "Zukerfeld, M. Bienes informacionales y capitalismo cognitivo. Conocimiento, información y acceso en el siglo XXI. En Revista Razón y Palabra nro. 54. En: http://www.www.razonypalabra.org.mx/anteriores/n54/mzukerfeld.html."
+      text: "Zukerfeld, M. Bienes informacionales y capitalismo cognitivo. Conocimiento, información y acceso en el siglo XXI. En Revista Razón y Palabra nro. 54."
     }
   ]
 }
