@@ -13,7 +13,7 @@ export const Hero = () => {
         <Subtitle text={textSubtitle} type="regular" />
         <p>{textDescription}</p>
       </div>
-      <Image src="/images/met-3.jpg" alt="" width={485} height={471} unoptimized className="rounded-xl xl:place-self-end" priority />
+      <Image src="/images/docentes/hero.JPG" alt="" width={485} height={471} unoptimized className="rounded-xl xl:place-self-end" priority />
     </section>
   )
 }
