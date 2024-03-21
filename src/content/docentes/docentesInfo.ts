@@ -23,4 +23,19 @@ export const docentesInfo: DocentesInfo[] = [
       }
     ]
   },
+  {
+    name: "LUCILA LEONE",
+    role: "Ayudante.",
+    image: "/images/docentes/lucila_leone.jpg",
+    bio: [
+      {
+        text: "Diseñadora Industrial graduada de la UBA, con una trayectoria que abarca desde el trabajo académico hasta la industria digital. Desde 2018, ha sido ayudante en la materia. Anteriormente, formó parte del Centro Experimental para la Producción-FADU/UBA, donde comenzó como pasante en 2015 y luego como investigadora hasta 2018. En 2019, dio un giro hacia la industria digital, desempeñándose en diversas empresas, tanto grandes como pequeñas. Inicialmente como Diseñadora UX, su pasión por comprender las necesidades del usuario la llevó a especializarse como UX Researcher. Actualmente, ocupa este rol en DataArt, una empresa con sede en Estados Unidos, con un enfoque específico en la industria de la salud.",
+        key: 1
+      },
+      {
+        text: "Su trabajo como UX Researcher se centra en investigar las expectativas y necesidades de los usuarios en relación con los servicios de salud. Utiliza una variedad de metodologías, incluyendo entrevistas en profundidad, pruebas de usabilidad y workshops de co-creación, para garantizar que los productos y servicios satisfagan las demandas del mercado y mejoren la experiencia de las personas usuarias.",
+        key: 2
+      }
+    ]
+  },
 ] 
