@@ -13,7 +13,11 @@ export const investigacion: InvestigacionData = {
     },
     {
       key: 3,
-      text: "Dentro del marco de la Cátedra, participamos en diversos espacios de investigación y buscamos potenciar en los alumnos la participación en estas temáticas. Algunos de los Centros de investigación asociados a materia son:"
+      text: "A través de la Cátedra participamos en diversos espacios de Investigación - con proyectos de cátedra propios, o sumándonos a otros de interés - y sostenemos que el vínculo entre esta práctica (la investigación), sumada al aprendizaje de prácticas profesionales especificas hacen a un profesional más profundo y enriquecido."
+    },
+    {
+      key: 4,
+      text: "Algunos de los Centros de Investigación asociados a materia son:"
     }
   ],
   listItems: [
