@@ -5,23 +5,15 @@ export const fundamentos: Fundamentos = {
   texts: [
     {
       key: 1,
-      text: "La materia Metodología de la Investigación en Diseño está ubicada en el último nivel de la Carrera de Diseño Industrial, es materia obligatoria cuatrimestral, con 60 hs de cursada.",
+      text: "Nuestra propuesta de cátedra  se enmarca bajo tres ejes. El primero, de dimensión epistemológica, habla  de las ideas que enmarcan nuestros modos de trabajo; el segundo es la dimensión operativa (las dinámicas de clase) y como último eje, resulta crucial conectar con el contexto, a través de la investigación y de la cátedra en red.",
     },
     {
       key: 2,
-      text: "Está considerada en el currículo general como materia teórica, no proyectual, en donde se desarrollan conocimientos que brindan soporte a las materias troncales.",
+      text: "Decimos que Diseñar es elegir [el proyecto], donde éste es la acción a través de la cual los colectivos sociales construyen horizontes, mundos posibles. Retomamos como marco los conceptos de racionalidad limitada, de pre comprensión modelizante, de conocimientos tácitos, explícitos y estratégicos.",
     },
     {
       key: 3,
-      text: "Considerando esta plataforma de pertenencia, se propone como un espacio académico de replanteo y exploración de cuestiones epistémico-metodológicas en relación con el campo proyectual, específicamente considerando las particularidades del diseño industrial."
+      text: "Sostenemos que el conocimiento se diseña: se diseñan Objetivos, Resultados posibles, Estrategias, Enfoque y puntos de vista, Ideología / subjetividad…Se diseña también la Metodología."
     },
-    {
-      key: 4,
-      text: "En la práctica, conlleva una parte de trabajo teórico-reflexivo, a través de clases teóricas y lectura de textos específicos y otras acciones más de índole de taller, con correcciones horizontales y colectivas, de aprendizaje e incorporación de conocimientos y herramientas metodológicas orientadas a diseño."
-    },
-    {
-      key: 5,
-      text: "La materia, desempeña un rol en la sensibilidad hacia el actuar sistemático."
-    }
   ]
 }
