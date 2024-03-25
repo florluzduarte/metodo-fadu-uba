@@ -1,6 +1,16 @@
 import type { Bibliografia } from "@/models";
 
 export const bibliografiaRecomendada: Bibliografia = {
+  texts: [
+    {
+      key: 1,
+      text: "El diseño es en una disciplina atada a su contexto socio temporal, mutante y flexible. Eso hizo que nuestro propio marco de referencia también fuese, sino cambiando radicalmente, respirando otros aires y autores en la medida que avanzamos a través de las  diversas cohortes."
+    },
+    {
+      key: 2,
+      text: "Acá les presentamos algunos autores e ideas que fueron dando forma a nuestras maneras de ver, reflexionar, hacer y pensar el diseño. Algunos son  de los eternos, y otros que nos hacen pensar recorridos novedosos."
+    }
+  ],
   books: [
     {
       order: 1,

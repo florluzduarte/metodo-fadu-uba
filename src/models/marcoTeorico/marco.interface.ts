@@ -1,5 +1,6 @@
-import type { ListItemProps } from "@/models";
+import type { ListItemProps, Paragraph } from "@/models";
 
 export interface Bibliografia {
+  texts: Paragraph[];
   books: ListItemProps[];
 }
