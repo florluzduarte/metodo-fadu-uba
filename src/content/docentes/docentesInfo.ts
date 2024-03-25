@@ -24,6 +24,17 @@ export const docentesInfo: DocentesInfo[] = [
     ]
   },
   {
+    name: "SOL MAUGERI",
+    role: "Jefa de trabajos prácticos.",
+    image: "/images/docentes/sol_maugeri.jpg",
+    bio: [
+      {
+        text: "Diseñadora Industrial UBA. Ayudante en la materia desde 2013. Forma parte de diversos proyectos de investigación y extensión acunados desde el CEPRODIDE. Vinculada a las PYMES, trabajó hasta el 2012 en empresa del sector privado dedicada a la fabricación y desarrollo de insumos gráficos agregando valor a sus procesos y fomentando sus capacidades productivas. Es así como colaboró en la obtención de patente de invención nº AR038084B1 concebida años posteriores. Desde 2012 se desempeña como Diseñadora industrial en el Instituto Nacional de Tecnología Industrial atendiendo a las demandas productivas: hasta el 2018 desde la Unidad Técnica de Transferencia de Centro de Diseño Industrial y actualmente desde el centro de Micro y Nano Tecnología, específicamente en el Departamento de Prototipado Microelectrónico y Electrónica Impresa. Obtuvo premio innovar 2012 y distinción 2013 por el rectorado de la Universidad de Buenos Aires. En 2014, logra registro de modelo de desarrollo de diseño Industrial con presencia de Universidad Pública.",
+        key: 1
+      }
+    ]
+  },
+  {
     name: "LUCILA LEONE",
     role: "Ayudante.",
     image: "/images/docentes/lucila_leone.jpg",
@@ -35,6 +46,28 @@ export const docentesInfo: DocentesInfo[] = [
       {
         text: "Su trabajo como UX Researcher se centra en investigar las expectativas y necesidades de los usuarios en relación con los servicios de salud. Utiliza una variedad de metodologías, incluyendo entrevistas en profundidad, pruebas de usabilidad y workshops de co-creación, para garantizar que los productos y servicios satisfagan las demandas del mercado y mejoren la experiencia de las personas usuarias.",
         key: 2
+      }
+    ]
+  },
+  {
+    name: "LAUTARO SAFÓN",
+    role: "Ayudante.",
+    image: "/images/docentes/lautaro_safon.jpg",
+    bio: [
+      {
+        text: "Diseñador Industrial UBA, ayudante en la materia desde 2018. Terminó sus estudios realizando un proyecto de investigación sobre los espacios de producción cooperativos. Durante tres años colaboró en la gestión de la organización del Taller de Diseño para la Economía Popular (TaDEP). Ha tenido experiencias laborales en entornos industriales cooperativos y en la industria del plástico. Como diseñador freelance se orienta al modelado 3D para producir en diferentes programas, con conocimiento en el uso de máquinas de prototipado y producción. Actualmente enfocado en la mejora de procesos productivos.",
+        key: 1
+      }
+    ]
+  },
+  {
+    name: "LUCÍA SOUTO GRUART",
+    role: "Ayudante.",
+    image: "/images/docentes/lucia_souto.jpg",
+    bio: [
+      {
+        text: "Diseñadora Industrial UBA, ayudante en la materia desde 2024. Terminó sus estudios realizando una tesis en colaboración con una cooperativa, proyectando sus estrategias de posicionamiento y venta al público. También formó parte del equipo de Fundación IDA, tuvo experiencias laborales en el área de marketing y empresas de diseño local. Actualmente se desenvuelve como diseñadora independiente, y forma parte de un grupo de estudios anclado en la institución Gino Germani (IIGG – Sociales UBA), enfocado en la investigación de los cruces entre diseño y sociedad (GEDISO).",
+        key: 1,
       }
     ]
   },

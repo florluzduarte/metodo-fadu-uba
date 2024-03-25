@@ -4,7 +4,7 @@ import { List } from "@/components";
 export const BiblioList = () => {
   return (
     <>
-      <List listItems={bibliografiaRecomendada.books} />
+      <List listItems={bibliografiaRecomendada.booksDefault} />
     </>
   )
 }
