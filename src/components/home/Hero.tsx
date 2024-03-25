@@ -3,7 +3,7 @@ import { Title, Subtitle } from "@/components";
 
 const textTitle = "Metodología de la investigación en Diseño";
 const textSubtitle = "Cátedra Ex-Galán"
-const textDescription = "La materia está ubicada en el último nivel de la Carrera de Diseño Industrial (FADU-UBA), es obligatoria y cuatrimestral, con 60hs. de cursada. Conlleva una parte de trabajo teórico-reflexivo, a través de clases teóricas y lectura de textos; en conjunto con otras acciones de taller, correcciones horizontales y colectivas más aprendizaje e incorporación de conocimientos y herramientas metodológicas orientadas a diseño.";
+const textDescription = "Metodología de la investigación es construir diseño con sentido. Es una plataforma pedagógica desde donde reflexionar sobre el diseño, sus prácticas, sus metodologías y sus resultados. El diseño y los procesos de investigación que se gestan nunca son ingenuos en cuanto a su entramado dentro de los paradigmas prevalentes.  Sensibilizar hacia un actuar sistemático y reflexivo es una posición ideológica trascendente. Es necesario dejar huella trazable del pensamiento a fin de poder ser recorrido por otros, haciéndolo transparente y democrático. Beatriz Galán nos decía el conocimiento se diseña, con inteligencia en contexto, equidad y economía ecológica. Allá vamos.";
 
 export const Hero = () => {
   return (
@@ -13,7 +13,7 @@ export const Hero = () => {
         <Subtitle text={textSubtitle} type="regular" />
         <p>{textDescription}</p>
       </div>
-      <Image src="/images/docentes/hero.JPG" alt="" width={485} height={471} unoptimized className="rounded-xl xl:place-self-end" priority />
+      <Image src="/images/docentes/hero.JPG" alt="" width={485} height={471} unoptimized className="rounded-xl md:place-self-start lg:place-self-center" priority />
     </section>
   )
 }
