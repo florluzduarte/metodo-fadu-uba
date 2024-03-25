@@ -59,5 +59,16 @@ export const docentesInfo: DocentesInfo[] = [
         key: 1
       }
     ]
-  }
+  },
+  {
+    name: "LUCÍA SOUTO GRUART",
+    role: "Ayudante.",
+    image: "/images/docentes/lucia_souto.jpg",
+    bio: [
+      {
+        text: "Diseñadora Industrial UBA, ayudante en la materia desde 2024. Terminó sus estudios realizando una tesis en colaboración con una cooperativa, proyectando sus estrategias de posicionamiento y venta al público. También formó parte del equipo de Fundación IDA, tuvo experiencias laborales en el área de marketing y empresas de diseño local. Actualmente se desenvuelve como diseñadora independiente, y forma parte de un grupo de estudios anclado en la institución Gino Germani (IIGG – Sociales UBA), enfocado en la investigación de los cruces entre diseño y sociedad (GEDISO).",
+        key: 1,
+      }
+    ]
+  },
 ] 

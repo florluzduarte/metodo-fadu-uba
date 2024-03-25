@@ -1,7 +1,7 @@
-import { BiblioList, LinkItem, Title } from "@/components";
+import { LinkItem, List, Subtitle, Title } from "@/components";
 import { bibliografiaRecomendada } from "@/content/marcoTeorico/bibliografiaList";
 
-const { texts } = bibliografiaRecomendada;
+const { texts, titles, booksDefault, booksOptional } = bibliografiaRecomendada;
 
 export default function MarcoTeoricoPage() {
   return (
@@ -15,7 +15,10 @@ export default function MarcoTeoricoPage() {
           ))
         }
       </div>
-      <BiblioList />
+      <Subtitle text={titles[0]} type="bold" />
+      <List listItems={booksDefault} />
+      <Subtitle text={titles[1]} type="bold" />
+      <List listItems={booksOptional} />
       <LinkItem type="internal" iconPosition="left" text="Volver" path="/" />
     </div>
   );
